@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>smakuy</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="css/slick.css"> -->
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<header id="header" class="header">
+			<nav id="topnav" class="topnav d-none d-lg-block">
+				<div class="container">
+					<!-- <a href="#" class="topnav-left-opener">
+						<i class="icon-question-circle"></i>
+					</a>
+					<ul class="topnav-left">
+						<li>
+							<a href="#">
+								<i class="icon-money"></i>
+								Гарантия
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon-paper-plane"></i>Оплата и доставка
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon-paper-plane-o"></i>Схема проезда
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon-legal"></i>Легальность
+							</a>
+						</li>
+					</ul> -->
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<ul class="social-menu">
+								<li><a href="#"><i class="icon-youtube-play"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-instagram"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-lg-6">
+							<ul class="topnav-right drop-white">
+								<li>
+									<a href="#">
+										<i class="icon-balance-scale"></i>
+										<span>Сравнение товаров (0)</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-heart"></i>
+										<span>Закладки (0)</span>
+									</a>
+								</li>
+								<li class="drop-box">
+									<a href="#" class="drop-btn">
+										<i class="icon-user"></i>
+										<span>Личный кабинет</span>
+										<strong class="caret"></strong>
+									</a>
+									<!-- <ul class="drop-menu register_user">
+															<li><a href="#">Личный кабинет</a></li>
+															<li><a href="#">История заказов</a></li>
+															<li><a href="#">Транзакции</a></li>
+															<li><a href="#">Загрузки</a></li>
+															<li><a href="#">Выход</a></li>
+														</ul> -->
+									<ul class="drop-menu unregister_user">
+										<li><a href="#">Регистрация</a></li>
+										<li><a href="#" class="login-opener">Авторизация</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-3">
+							<ul class="contact-menu drop-white">
+								<li class="drop-box">
+									<a href="tel:+380504066173" class="drop-btn">
+										<i class="icon-phone"></i>
+										<span>+38 (050) 406-61-73</span>
+										<strong class="caret"></strong>
+									</a>
+									<ul class="drop-menu">
+										<li><a href="tel:+380981662393"><i class="icon-phone"></i>+38 (098) 166-23-93</a></li>
+										<li><a href="tel:+380635790168"><i class="icon-phone"></i>+38 (063) 579-01-68</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="row align-items-center d-lg-none">
+					<div class="col-6">
+						<strong class="logo">
+							<a href="index.html"><img src="img/logo.png" alt="smakuy"></a>
+						</strong>
+					</div>
+					<div class="col-6 text-right">
+						<a href="#" class="btn btn-orange modal-opener">
+							Обратный звонок
+						</a>
+					</div>
+				</div>
+				<div class="row align-items-center padding d-none d-lg-flex">
+					<div class="col-lg-3 order-0">
+						<strong class="logo">
+							<a href="index.html"><img src="img/logo-new.png" alt="smakuy"></a>
+						</strong>
+					</div>
+					<div class="col-md-8 col-lg-4">
+						<form class="head-search">
+							<div class="form-group">
+								<input type="text" placeholder="Поиск">
+								<span class="btn-holder">
+									<button class="search-btn" type="submit">
+										<i class="icon-search"></i>
+									</button>
+								</span>
+								<ul class="autosearch">
+									<li>
+										<a href="#" class="autosearch-link">
+											<div class="img-box">
+												<img src="img/ss12.jpg" alt="image-description">
+											</div>
+											<div class="text-box">
+												<h4>
+													Аппарат Профи
+												</h4>
+												<div class="product-price">
+													<span class="price-noformat">4450грн</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="autosearch-link">
+											<div class="img-box">
+												<img src="img/ss12.jpg" alt="image-description">
+											</div>
+											<div class="text-box">
+												<h4>
+													Аппарат Профи
+												</h4>
+												<div class="product-price">
+													<span class="price-old">4290 грн</span>
+													<span class="price-new">3690 грн</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="autosearch-link">
+											<div class="img-box">
+												<img src="img/ss12.jpg" alt="image-description">
+											</div>
+											<div class="text-box">
+												<h4>
+													Аппарат Профи
+												</h4>
+												<div class="product-price">
+													<span class="price-noformat">4450грн</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="autosearch-link">
+											<div class="img-box">
+												<img src="img/ss12.jpg" alt="image-description">
+											</div>
+											<div class="text-box">
+												<h4>
+													Аппарат Профи
+												</h4>
+												<div class="product-price">
+													<span class="price-noformat">4450грн</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="autosearch-link">
+											<div class="img-box">
+												<img src="img/ss12.jpg" alt="image-description">
+											</div>
+											<div class="text-box">
+												<h4>
+													Аппарат Профи
+												</h4>
+												<div class="product-price">
+													<span class="price-old">4290 грн</span>
+													<span class="price-new">3690 грн</span>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li><a href="#">Просмотреть все результаты</a></li>
+								</ul>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-2">
+						<div class="contact">
+							<p class="work-time">
+								Пн-Сб с 9-00 до 18-00 Воскресенье: выходной
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-1">
+						
+						<div class="img-box">
+							<img src="img/flag.gif" alt="флаг Украины">
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-2 ">
+						<ul class="shopping-cart" id="cart">
+							<li class="drop-box">
+								<a href="#" class="dropdown-cart drop-btn">
+									<i class="icon-shopping-bag"></i>
+									<div class="cart-total">
+										<div class="products">
+											<b>0</b>
+											Товаров,
+										</div>
+										<div class="prices">
+											на
+											<b>0 грн</b>
+										</div>
+									</div>
+									<i class="icon-angle-down"></i>
+								</a>
+								<ul class="drop-menu filled">
+									<li>
+										<div class="addgoods">
+											<div class="row align-items-center justify-content-between">
+												<div class="add_col">
+													<a href="#">
+														<div class="img-box">
+															<img src="img/img_thumb.jpg" alt="image-description">
+														</div>
+													</a>
+												</div>
+												<div class="add_col">
+													<a href="#">Самогонный аппарат "Старт" - 12 л.</a>
+												</div>
+												<div class="add_col">
+													<div class="cart-quantity-header">x 1</div>
+												</div>
+												<div class="add_col">
+													3690грн
+												</div>
+												<div class="add_col">
+													<a href="#" class="btn-delete">
+														<i class="icon-trash-o"></i>
+													</a>
+												</div>
+											</div>
+											<div class="row align-items-center justify-content-between">
+												<div class="add_col">
+													<a href="#">
+														<div class="img-box">
+															<img src="img/img_thumb.jpg" alt="image-description">
+														</div>
+													</a>
+												</div>
+												<div class="add_col">
+													<a href="#">Самогонный аппарат "Старт" - 12 л.</a>
+												</div>
+												<div class="add_col">
+													<div class="cart-quantity-header">x 1</div>
+												</div>
+												<div class="add_col">
+													3690грн
+												</div>
+												<div class="add_col">
+													<a href="#" class="btn-delete">
+														<i class="icon-trash-o"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div>
+											<div class="amount">
+												<div class="row align-items-center justify-content-between">
+													<div class="add_col">
+														<strong>Сумма</strong>
+													</div>
+													<div class="add_col">
+														<span>7380грн</span>
+													</div>
+												</div>
+											</div>
+											<div class="btn-box d-lg-flex justify-content-between">
+												<div class="btn-holder">
+													<a href="#" class="btn">Перейти в корзину</a>
+												</div>
+												<div class="btn-holder">
+													<a href="#" class="btn btn-green">Оформить заказ</a>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<!-- <ul class="drop-menu empty">
+									<li>
+										Ваша корзина пуста!
+									</li>
+								</ul> -->
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-lg-3">
+						<div class="menu-box">
+							<nav class="category-menu static-category-menu"><!--class="open" only main-page -->
+								<ul>
+									<li class="drop-box">
+										<a href="#" class="drop-btn btn btn-orange">
+											<p>Категории</p>
+											<p class="burger-menu">
+												<span></span>
+											</p>
+										</a>
+										<ul class="drop-menu"> 
+											<li><a href="#">Готовые комплекты (Самогонный аппараты)</a></li>
+											<li><a href="#">Детали аппаратов (комплектующее железо)</a></li>
+											<li><a href="#">Емкости</a></li>
+											<li><a href="#">Аксессуары (Шланги, Насадки, насос…)</a></li>
+											<li><a href="#">Бочки дубовые</a></li>
+											<li><a href="#">Готовые наборы для напитков</a></li>
+											<li><a href="#">Для браги</a></li>
+											<li><a href="#">Специи <span class="cat-label">new</span></a></li>
+											<li><a href="#">Акции</a></li>
+											<li><a href="#">Пивоварня</a></li>
+											<li><a href="#">Все для пивоварения</a></li>
+											<li><a href="#">Копчение</a></li>
+											<li><a href="#">Акции</a></li>
+										</ul>
+									</li>
+								</ul>
+							</nav>
+							<div class="category-menu-hover"></div>
+							<ul class="shopping-cart" id="cart2">
+								<li class="drop-box">
+									<a href="#" class="dropdown-cart drop-btn">
+										<i class="icon-shopping-bag"></i>
+										<div class="cart-total">
+											<div class="products">
+												<b>0</b>
+												Товаров,
+											</div>
+											<div class="prices">
+												на
+												<b>0 грн</b>
+											</div>
+										</div>
+									</a>
+									<ul class="drop-menu filled">
+										<li>
+											<div class="addgoods">
+												<div class="row align-items-center justify-content-between">
+													<div class="add_col">
+														<a href="#">
+															<div class="img-box">
+																<img src="img/img_thumb.jpg" alt="image-description">
+															</div>
+														</a>
+													</div>
+													<div class="add_col">
+														<a href="#">Самогонный аппарат "Старт" - 12 л.</a>
+													</div>
+													<div class="add_col">
+														<div class="cart-quantity-header">x 1</div>
+													</div>
+													<div class="add_col">
+														3690грн
+													</div>
+													<div class="add_col">
+														<a href="#" class="btn-delete">
+															<i class="icon-trash-o"></i>
+														</a>
+													</div>
+												</div>
+												<div class="row align-items-center justify-content-between">
+													<div class="add_col">
+														<a href="#">
+															<div class="img-box">
+																<img src="img/img_thumb.jpg" alt="image-description">
+															</div>
+														</a>
+													</div>
+													<div class="add_col">
+														<a href="#">Самогонный аппарат "Старт" - 12 л.</a>
+													</div>
+													<div class="add_col">
+														<div class="cart-quantity-header">x 1</div>
+													</div>
+													<div class="add_col">
+														3690грн
+													</div>
+													<div class="add_col">
+														<a href="#" class="btn-delete">
+															<i class="icon-trash-o"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div>
+												<div class="amount">
+													<div class="row align-items-center justify-content-between">
+														<div class="add_col">
+															<strong>Сумма</strong>
+														</div>
+														<div class="add_col">
+															<span>7380грн</span>
+														</div>
+													</div>
+												</div>
+												<div class="btn-box d-lg-flex justify-content-between">
+													<div class="btn-holder">
+														<a href="#" class="btn">Перейти в корзину</a>
+													</div>
+													<div class="btn-holder">
+														<a href="#" class="btn btn-green">Оформить заказ</a>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<!-- <ul class="drop-menu empty">
+										<li>
+											Ваша корзина пуста!
+										</li>
+									</ul> -->
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<nav class="about-menu">
+							<ul>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Статьи</a><span>/</span><a href="#">Видео</a></li>
+								<li><a href="#">Гарантия</a><span>/</span><a href="#">Доставка</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">FAQ(Курсы видео)</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="header-nav-holder header">
+			<nav class="sticky-nav">
+				<div class="container">
+					<div class="row align-items-center justify-content-between">
+						<div class="col-lg-3">
+							<nav class="category-menu">
+								<ul>
+									<li class="drop-box">
+										<a href="#" class="drop-btn btn btn-orange">
+											<p>Категории</p>
+											<p class="burger-menu">
+												<span></span>
+											</p>
+										</a>
+										<ul class="drop-menu">
+											<li><a href="#">Самогонные аппараты (Готовые комплекты)</a></li>
+											<li><a href="#">Домашние пивоварни</a></li>
+											<li><a href="#">Емкости (Перегонные кубы)</a></li>
+											<li><a href="#">Комплектующие</a></li>
+											<li><a href="#">Ректификационная колонна</a></li>
+											<li><a href="#">Аксессуары</a></li>
+											<li><a href="#">Специи <span class="cat-label">new</span></a></li>
+											<li><a href="#">Скидки</a></li>
+										</ul>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-lg-4">
+							<form class="head-search">
+								<div class="form-group">
+									<input type="text" placeholder="Поиск">
+									<span class="btn-holder">
+										<button class="search-btn" type="submit">
+											<i class="icon-search"></i>
+										</button>
+									</span>
+								</div>
+							</form>
+						</div>
+						<div class="col-lg-3">
+							<div class="contact">
+								<ul>
+									<li><a href="tel:+380504066173"><i class="icon-phone-square"></i>+38 (050) 406-61-73</a></li>
+								</ul>
+								<p class="work-time">
+									Пн-Пт с 9-00 до 20-00, Сб с 9-00 до 18-00, Вс выходной
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-2">
+							<ul class="shopping-cart">
+								<li class="drop-box">
+									<a href="#" class="dropdown-cart drop-btn">
+										<i class="icon-shopping-bag"></i>
+										<div class="cart-total">
+											<div class="products">
+												<b>0</b>
+												Товаров,
+											</div>
+											<div class="prices">
+												на
+												<b>0 грн</b>
+											</div>
+										</div>
+										<i class="icon-angle-down"></i>
+									</a>
+									<!-- <ul class="drop-menu filled">
+										<li>
+											<div class="addgoods">
+												<div class="row align-items-center justify-content-between">
+													<div class="add_col">
+														<a href="#">
+															<div class="img-box">
+																<img src="img/img_thumb.jpg" alt="image-description">
+															</div>
+														</a>
+													</div>
+													<div class="add_col">
+														<a href="#">Самогонный аппарат "Старт" - 12 л.</a>
+													</div>
+													<div class="add_col">
+														<div class="cart-quantity-header">x 1</div>
+													</div>
+													<div class="add_col">
+														3690грн
+													</div>
+													<div class="add_col">
+														<a href="#" class="btn-delete">
+															<i class="icon-trash-o"></i>
+														</a>
+													</div>
+												</div>
+												<div class="row align-items-center justify-content-between">
+													<div class="add_col">
+														<a href="#">
+															<div class="img-box">
+																<img src="img/img_thumb.jpg" alt="image-description">
+															</div>
+														</a>
+													</div>
+													<div class="add_col">
+														<a href="#">Самогонный аппарат "Старт" - 12 л.</a>
+													</div>
+													<div class="add_col">
+														<div class="cart-quantity-header">x 1</div>
+													</div>
+													<div class="add_col">
+														3690грн
+													</div>
+													<div class="add_col">
+														<a href="#" class="btn-delete">
+															<i class="icon-trash-o"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div>
+												<div class="amount">
+													<div class="row align-items-center justify-content-between">
+														<div class="add_col">
+															<strong>Сумма</strong>
+														</div>
+														<div class="add_col">
+															<span>7380грн</span>
+														</div>
+													</div>
+												</div>
+												<div class="btn-box d-flex justify-content-between">
+													<div class="btn-holder">
+														<a href="#" class="btn">Перейти в корзину</a>
+													</div>
+													<div class="btn-holder">
+														<a href="#" class="btn btn-green">Оформить заказ</a>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul> -->
+									<ul class="drop-menu empty">
+										<li>
+											Ваша корзина пуста!
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="callback">
+			<a href="#" class="modal-opener">
+				<i class="icon-phone-square"></i>
+				Обратный звонок
+			</a>
+		</div>
+		

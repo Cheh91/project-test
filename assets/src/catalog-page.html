@@ -1,0 +1,806 @@
+//= template/head.html
+<main id="main">
+	<section class="catalog-section">
+		<div class="container">
+			<ul class="breadcrumbs">
+				<li><a href="index.html"><i class="icon-home"></i></a></li>
+				<li><strong>Самогонные аппараты (Готовые комплекты)</strong></li>
+			</ul>
+			<div class="row">
+				<aside class="sidebar-left d-none d-md-block col-md-4 col-lg-3">
+					<nav class="category-menu">
+						<ul>
+							<li>
+								<strong class="menu-head">
+									<p>
+										КАТЕГОРИИ
+									</p>
+									<p class="burger-menu">
+										<span></span>
+									</p>
+								</strong>
+								<ul class="drop-menu">
+									<li>
+										<p class="curent">Скидки (10)</p>
+									</li>
+									<li><a href="#">Самогонные аппараты (Готовые комплекты) (11)</a></li>
+									<li><a href="#">Домашние пивоварни (2)</a></li>
+									<li><a href="#">Емкости (Перегонные кубы) (6)</a></li>
+									<li><a href="#">Комплектующие (31)</a></li>
+									<li><a href="#">Ректификационная колонна (4)</a></li>
+									<li><a href="#">Аксессуары (23)</a></li>
+									<li><a href="#">Сувениры (4)</a></li>
+									<li><a href="#">Специи (32)</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<ul class="aside-sorting">
+						<li>
+							<h4 class="aside-sorting-head">
+								Подбор аппарата
+							</h4>
+							<ul>
+								<li>
+									<label>
+										Наличие проточной воды
+										<select class="form-control required" name="availability_water">
+											<option value="1">Да</option>
+											<option value="0">Нет</option>
+										</select>
+									</label>
+								</li>
+								<li>
+									<label>
+										Брага(состав)
+										<select class="form-control required" name="composition">
+											<option value="sugar">Сахарная</option>
+											<option value="fruit">Фруктовая</option>
+										</select>
+									</label>
+								</li>
+								<li>
+									<label>
+										Брага(обьем)
+										<select class="form-control required" name="volume" id="fc-volume">
+											<option value="10">до 10 л</option>
+											<option value="20">до 20 л</option>
+											<option value="30">до 30 л</option>
+											<option value="50">от 30 л</option>
+										</select>
+									</label>
+								</li>
+								<li>
+									<label>
+										Какой у вас бюджет?
+										<select class="form-control required" name="money" id="fc-money">
+											<option value="1">до 4500 грн.</option>
+											<option value="2">до 8000 грн.</option>
+											<option value="3">Деньги не главное</option>
+										</select>
+									</label>
+								</li>
+								<li>
+									<button type="button" class="btn btn-general">
+										Поиск
+									</button>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="sorting-result">
+						<div class="head-group">
+							<h3>РЕЗУЛЬТАТ ПОИСКА</h3>
+						</div>
+						<div class="sorting-result-box">
+							<div class="product">
+								<a href="#" class="product-img">
+									<div class="img-box front">
+										<img src="img/ss12.jpg" alt="image description">
+									</div>
+									<div class="img-box back">
+										<img src="img/ss12hover.jpg" alt="image description">
+									</div>
+								</a>
+								<div class="quickview">
+									<a href="#" class="preview-opener">
+										<i class="icon-external-link"></i>
+										Просмотр
+									</a>
+								</div>
+								<div class="stickers">
+									<div class="percent">
+										<i class="icon-tag"></i>
+										<span>-14 %</span>
+									</div>
+									<div class="sale">
+										<span>Акция</span>
+									</div>
+								</div>
+								<div class="product-caption">
+									<div class="product-name">
+										<a href="#">
+											Самогонный аппарат "Старт" - 12 л.
+										</a>
+									</div>
+									<div class="product-model">
+										<p>
+											Самогонный аппарат "Старт" - 10 л.
+										</p>
+									</div>
+									<div class="product-rating">
+										<ul class="rating-box">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li class="quantity-reviews">
+												<a href="#">22</a>
+												<span>отзывов</span>
+											</li>
+										</ul>
+									</div>
+									<div class="product-price">
+										<span class="price-old" data-price="4290">4290 <span>грн</span></span>
+										<span class="price-new" data-price="3690">3690 грн</span>
+									</div>
+									<div class="product-quantity">
+										<div class="input-group">
+											<button class="btn-quantity minus" type="button">-</button>
+											<input class="input-quantity" type="text" value="1">
+											<button class="btn-quantity plus" type="button">+</button>
+										</div>
+									</div>
+									<div class="product-btn">
+										<div class="quick-order">
+											<a href="#" class="btn btn-fast-order fast-order-opener">
+												<i class="icon-shopping-bag"></i>
+											</a>
+										</div>
+										<div class="cart">
+											<a href="#" class="btn btn-general addcart-opener">
+												<i class="icon-shopping-basket"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#" class="product-img">
+									<div class="img-box front">
+										<img src="img/ss12.jpg" alt="image description">
+									</div>
+									<div class="img-box back">
+										<img src="img/ss12hover.jpg" alt="image description">
+									</div>
+								</a>
+								<div class="quickview">
+									<a href="#" class="preview-opener">
+										<i class="icon-external-link"></i>
+										Просмотр
+									</a>
+								</div>
+								<div class="stickers">
+									<div class="percent">
+										<i class="icon-tag"></i>
+										<span>-14 %</span>
+									</div>
+									<div class="sale">
+										<span>Акция</span>
+									</div>
+								</div>
+								<div class="product-caption">
+									<div class="product-name">
+										<a href="#">
+											Самогонный аппарат "Старт" - 12 л.
+										</a>
+									</div>
+									<div class="product-model">
+										<p>
+											Самогонный аппарат "Старт" - 10 л.
+										</p>
+									</div>
+									<div class="product-rating">
+										<ul class="rating-box">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li class="quantity-reviews">
+												<a href="#">22</a>
+												<span>отзывов</span>
+											</li>
+										</ul>
+									</div>
+									<div class="product-price">
+										<span class="price-old" data-price="4290">4290 <span>грн</span></span>
+										<span class="price-new" data-price="3690">3690 грн</span>
+									</div>
+									<div class="product-quantity">
+										<div class="input-group">
+											<button class="btn-quantity minus" type="button">-</button>
+											<input class="input-quantity" type="text" value="1">
+											<button class="btn-quantity plus" type="button">+</button>
+										</div>
+									</div>
+									<div class="product-btn">
+										<div class="quick-order">
+											<a href="#" class="btn btn-fast-order fast-order-opener">
+												<i class="icon-shopping-bag"></i>
+											</a>
+										</div>
+										<div class="cart">
+											<a href="#" class="btn btn-general addcart-opener">
+												<i class="icon-shopping-basket"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</aside>
+				<div class="col-md-8 col-lg-9">
+					<div class="catalog-section-title">
+						<h1>
+							Самогонные аппараты (Готовые комплекты)
+						</h1>
+					</div>
+					<ul class="catalog-section-filter">
+						<li>
+							<ul class="drop-white">
+								<li class="drop-box">
+									<a href="#" class="drop-btn">
+										<span>Сортировка</span>
+										<strong class="caret"></strong>
+									</a>
+									<ul class="drop-menu">
+										<li><a href="#">По умолчанию</a></li>
+										<li><a href="#">Название (А - Я)</a></li>
+										<li><a href="#">Название (Я - А)</a></li>
+										<li><a href="#">Цена (низкая > высокая)</a></li>
+										<li><a href="#">Цена (высокая > низкая)</a></li>
+										<li><a href="#">Рейтинг (начиная с высокого)</a></li>
+										<li><a href="#">Рейтинг (начиная с низкого)</a></li>
+										<li><a href="#">Модель (А - Я)</a></li>
+										<li><a href="#">Модель (Я - А)</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" data-type="product-list" class="view-switch cloud-hover">
+								<i class="icon-th-list"></i>
+								<span>
+									Список
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-type="product-grid" class="view-switch cloud-hover">
+								<i class="icon-th"></i>
+								<span>
+									Сетка
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-type="product-table" class="view-switch cloud-hover">
+								<i class="icon-align-justify"></i>
+								<span>
+									Price
+								</span>
+							</a>
+						</li>
+						<li>
+							<ul class="drop-white">
+								<li class="drop-box">
+									<a href="#" class="drop-btn">
+										<span>50</span>
+										<strong class="caret"></strong>
+									</a>
+									<ul class="drop-menu">
+										<li><a href="#">25</a></li>
+										<li><a href="#">50</a></li>
+										<li><a href="#">75</a></li>
+										<li><a href="#">100</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="row product-wrap">
+						<div class="col-md-6 col-lg-4">
+							<div class="product">
+								<a href="#" class="product-img">
+									<div class="img-box front">
+										<img src="img/ss12.jpg" alt="image description">
+									</div>
+									<div class="img-box back">
+										<img src="img/ss12hover.jpg" alt="image description">
+									</div>
+								</a>
+								<div class="quickview">
+									<a href="#" class="preview-opener">
+										<i class="icon-external-link"></i>
+										Просмотр
+									</a>
+								</div>
+								<div class="stickers">
+									<div class="percent">
+										<i class="icon-tag"></i>
+										<span>-14 %</span>
+									</div>
+									<div class="sale">
+										<span>Акция</span>
+									</div>
+								</div>
+								<div class="product-caption">
+									<div class="product-name">
+										<a href="#">
+											Самогонный аппарат "Старт" - 12 л.
+										</a>
+									</div>
+									<div class="product-model">
+										<p>
+											Самогонный аппарат "Старт" - 10 л.
+										</p>
+									</div>
+									<div class="product-description">
+										Устройство и принцип работы самогонного аппарата Старт 12 л
+										1. Брага заливается в перегонный куб...
+									</div>
+									<div class="product-rating">
+										<ul class="rating-box">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li class="quantity-reviews">
+												<a href="#">22</a>
+												<span>отзывов</span>
+											</li>
+										</ul>
+									</div>
+									<div class="product-price">
+										<span class="price-old" data-price="4290">4290 <span>грн</span></span>
+										<span class="price-new" data-price="3690">3690 грн</span>
+									</div>
+									<div class="product-quantity">
+										<div class="input-group">
+											<button class="btn-quantity minus" type="button">-</button>
+											<input class="input-quantity" type="text" value="1">
+											<button class="btn-quantity plus" type="button">+</button>
+										</div>
+									</div>
+									<div class="product-btn">
+										<div class="quick-order">
+											<a href="#" class="btn btn-fast-order fast-order-opener cloud-hover">
+												<i class="icon-shopping-bag"></i>
+												<span>
+													Купить в 1 клик
+												</span>
+											</a>
+										</div>
+										<div class="cart">
+											<a href="#" class="btn btn-general addcart-opener cloud-hover">
+												<i class="icon-shopping-basket"></i>
+												<span>
+													Добавить в корзину
+												</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="product">
+								<a href="#" class="product-img">
+									<div class="img-box front">
+										<img src="img/ss12.jpg" alt="image description">
+									</div>
+									<div class="img-box back">
+										<img src="img/ss12hover.jpg" alt="image description">
+									</div>
+								</a>
+								<div class="quickview">
+									<a href="#" class="preview-opener">
+										<i class="icon-external-link"></i>
+										Просмотр
+									</a>
+								</div>
+								<div class="stickers">
+									<div class="percent">
+										<i class="icon-tag"></i>
+										<span>-14 %</span>
+									</div>
+									<div class="sale">
+										<span>Акция</span>
+									</div>
+								</div>
+								<div class="product-caption">
+									<div class="product-name">
+										<a href="#">
+											Самогонный аппарат "Старт" - 12 л.
+										</a>
+									</div>
+									<div class="product-model">
+										<p>
+											Самогонный аппарат "Старт" - 10 л.
+										</p>
+									</div>
+									<div class="product-description">
+										Устройство и принцип работы самогонного аппарата Старт 12 л
+										1. Брага заливается в перегонный куб...
+									</div>
+									<div class="product-rating">
+										<ul class="rating-box">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li class="quantity-reviews">
+												<a href="#">22</a>
+												<span>отзывов</span>
+											</li>
+										</ul>
+									</div>
+									<div class="product-price">
+										<span class="price-old" data-price="4290">4290 <span>грн</span></span>
+										<span class="price-new" data-price="3690">3690 грн</span>
+									</div>
+									<div class="product-quantity">
+										<div class="input-group">
+											<button class="btn-quantity minus" type="button">-</button>
+											<input class="input-quantity" type="text" value="1">
+											<button class="btn-quantity plus" type="button">+</button>
+										</div>
+									</div>
+									<div class="product-btn">
+										<div class="quick-order">
+											<a href="#" class="btn btn-fast-order fast-order-opener cloud-hover">
+												<i class="icon-shopping-bag"></i>
+												<span>
+													Купить в 1 клик
+												</span>
+											</a>
+										</div>
+										<div class="cart">
+											<a href="#" class="btn btn-general addcart-opener cloud-hover">
+												<i class="icon-shopping-basket"></i>
+												<span>
+													Добавить в корзину
+												</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="product">
+								<a href="#" class="product-img">
+									<div class="img-box front">
+										<img src="img/ss12.jpg" alt="image description">
+									</div>
+									<div class="img-box back">
+										<img src="img/ss12hover.jpg" alt="image description">
+									</div>
+								</a>
+								<div class="quickview">
+									<a href="#" class="preview-opener">
+										<i class="icon-external-link"></i>
+										Просмотр
+									</a>
+								</div>
+								<div class="stickers">
+									<div class="percent">
+										<i class="icon-tag"></i>
+										<span>-14 %</span>
+									</div>
+									<div class="sale">
+										<span>Акция</span>
+									</div>
+								</div>
+								<div class="product-caption">
+									<div class="product-name">
+										<a href="#">
+											Самогонный аппарат "Старт" - 12 л.
+										</a>
+									</div>
+									<div class="product-model">
+										<p>
+											Самогонный аппарат "Старт" - 10 л.
+										</p>
+									</div>
+									<div class="product-description">
+										Устройство и принцип работы самогонного аппарата Старт 12 л
+										1. Брага заливается в перегонный куб...
+									</div>
+									<div class="product-rating">
+										<ul class="rating-box">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li class="quantity-reviews">
+												<a href="#">22</a>
+												<span>отзывов</span>
+											</li>
+										</ul>
+									</div>
+									<div class="product-price">
+										<span class="price-old" data-price="4290">4290 <span>грн</span></span>
+										<span class="price-new" data-price="3690">3690 грн</span>
+									</div>
+									<div class="product-quantity">
+										<div class="input-group">
+											<button class="btn-quantity minus" type="button">-</button>
+											<input class="input-quantity" type="text" value="1">
+											<button class="btn-quantity plus" type="button">+</button>
+										</div>
+									</div>
+									<div class="product-btn">
+										<div class="quick-order">
+											<a href="#" class="btn btn-fast-order fast-order-opener cloud-hover">
+												<i class="icon-shopping-bag"></i>
+												<span>
+													Купить в 1 клик
+												</span>
+											</a>
+										</div>
+										<div class="cart">
+											<a href="#" class="btn btn-general addcart-opener cloud-hover">
+												<i class="icon-shopping-basket"></i>
+												<span>
+													Добавить в корзину
+												</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="product">
+								<a href="#" class="product-img">
+									<div class="img-box front">
+										<img src="img/ss12.jpg" alt="image description">
+									</div>
+									<div class="img-box back">
+										<img src="img/ss12hover.jpg" alt="image description">
+									</div>
+								</a>
+								<div class="quickview">
+									<a href="#" class="preview-opener">
+										<i class="icon-external-link"></i>
+										Просмотр
+									</a>
+								</div>
+								<div class="stickers">
+									<div class="percent">
+										<i class="icon-tag"></i>
+										<span>-14 %</span>
+									</div>
+									<div class="sale">
+										<span>Акция</span>
+									</div>
+								</div>
+								<div class="product-caption">
+									<div class="product-name">
+										<a href="#">
+											Самогонный аппарат "Старт" - 12 л.
+										</a>
+									</div>
+									<div class="product-model">
+										<p>
+											Самогонный аппарат "Старт" - 10 л.
+										</p>
+									</div>
+									<div class="product-description">
+										Устройство и принцип работы самогонного аппарата Старт 12 л
+										1. Брага заливается в перегонный куб...
+									</div>
+									<div class="product-rating">
+										<ul class="rating-box">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li class="quantity-reviews">
+												<a href="#">22</a>
+												<span>отзывов</span>
+											</li>
+										</ul>
+									</div>
+									<div class="product-price">
+										<span class="price-old" data-price="4290">4290 <span>грн</span></span>
+										<span class="price-new" data-price="3690">3690 грн</span>
+									</div>
+									<div class="product-quantity">
+										<div class="input-group">
+											<button class="btn-quantity minus" type="button">-</button>
+											<input class="input-quantity" type="text" value="1">
+											<button class="btn-quantity plus" type="button">+</button>
+										</div>
+									</div>
+									<div class="product-btn">
+										<div class="quick-order">
+											<a href="#" class="btn btn-fast-order fast-order-opener cloud-hover">
+												<i class="icon-shopping-bag"></i>
+												<span>
+													Купить в 1 клик
+												</span>
+											</a>
+										</div>
+										<div class="cart">
+											<a href="#" class="btn btn-general addcart-opener cloud-hover">
+												<i class="icon-shopping-basket"></i>
+												<span>
+													Добавить в корзину
+												</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="product">
+								<a href="#" class="product-img">
+									<div class="img-box front">
+										<img src="img/ss12.jpg" alt="image description">
+									</div>
+									<div class="img-box back">
+										<img src="img/ss12hover.jpg" alt="image description">
+									</div>
+								</a>
+								<div class="quickview">
+									<a href="#" class="preview-opener">
+										<i class="icon-external-link"></i>
+										Просмотр
+									</a>
+								</div>
+								<div class="stickers">
+									<div class="percent">
+										<i class="icon-tag"></i>
+										<span>-14 %</span>
+									</div>
+									<div class="sale">
+										<span>Акция</span>
+									</div>
+								</div>
+								<div class="product-caption">
+									<div class="product-name">
+										<a href="#">
+											Самогонный аппарат "Старт" - 12 л.
+										</a>
+									</div>
+									<div class="product-model">
+										<p>
+											Самогонный аппарат "Старт" - 10 л.
+										</p>
+									</div>
+									<div class="product-description">
+										Устройство и принцип работы самогонного аппарата Старт 12 л
+										1. Брага заливается в перегонный куб...
+									</div>
+									<div class="product-rating">
+										<ul class="rating-box">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li class="quantity-reviews">
+												<a href="#">22</a>
+												<span>отзывов</span>
+											</li>
+										</ul>
+									</div>
+									<div class="product-price">
+										<span class="price-old" data-price="4290">4290 <span>грн</span></span>
+										<span class="price-new" data-price="3690">3690 грн</span>
+									</div>
+									<div class="product-quantity">
+										<div class="input-group">
+											<button class="btn-quantity minus" type="button">-</button>
+											<input class="input-quantity" type="text" value="1">
+											<button class="btn-quantity plus" type="button">+</button>
+										</div>
+									</div>
+									<div class="product-btn">
+										<div class="quick-order">
+											<a href="#" class="btn btn-fast-order fast-order-opener cloud-hover">
+												<i class="icon-shopping-bag"></i>
+												<span>
+													Купить в 1 клик
+												</span>
+											</a>
+										</div>
+										<div class="cart">
+											<a href="#" class="btn btn-general addcart-opener cloud-hover">
+												<i class="icon-shopping-basket"></i>
+												<span>
+													Добавить в корзину
+												</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul class="pagination">
+						<li class="active"><span>1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">></a></li>
+						<li><a href="#">>|</a></li>
+					</ul>
+					<div class="text-right">
+						<p>Показано с 1 по 10 из 10 (всего 1 страниц)</p>
+					</div>
+					<div class="faq-block">
+						<div class="faq-block__item">
+							<h3 class="faq-block__item-title">Необходимой детали нет в каталоге, что делать?</h3>
+							<div class="faq-block__item-content">
+								<ul>
+									<li>Благодаря многолетнему опыту, специалисты нашей компании стали настоящими
+										экспертами и помогут решить
+										любые проблемы</li>
+									<li>Если в каталоге не обнаружена нужная деталь, нужно позвонить нашим менеджерам
+									</li>
+									<li>Мы
+										работаем напрямую с поставщиками, оперативно уточним наличие и сроки поставки
+										требуемой запчасти</li>
+								</ul>
+							</div>
+						</div>
+						<div class="faq-block__item">
+							<h3 class="faq-block__item-title">Когда я получу заказанный товар?</h3>
+							<div class="faq-block__item-content">
+								<ul>
+									<li>Благодаря многолетнему опыту, специалисты нашей компании стали настоящими
+										экспертами и помогут решить
+										любые проблемы</li>
+									<li>Если в каталоге не обнаружена нужная деталь, нужно позвонить нашим менеджерам
+									</li>
+									<li>Мы
+										работаем напрямую с поставщиками, оперативно уточним наличие и сроки поставки
+										требуемой запчасти</li>
+								</ul>
+							</div>
+						</div>
+						<div class="faq-block__item">
+							<h3 class="faq-block__item-title">Как оформить заказ на сайте?</h3>
+							<div class="faq-block__item-content">
+								<ul>
+									<li>Благодаря многолетнему опыту, <a href="#">специалисты</a> нашей компании стали настоящими
+										экспертами и помогут решить
+										любые проблемы</li>
+									<li>Если в каталоге не обнаружена нужная деталь, нужно позвонить нашим менеджерам
+									</li>
+									<li>Мы
+										работаем напрямую с поставщиками, оперативно уточним наличие и сроки поставки
+										требуемой запчасти</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="faq">
+
+	</section>
+</main>
+//= template/footer.html

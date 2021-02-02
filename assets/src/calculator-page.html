@@ -1,0 +1,465 @@
+ //= template/head.html
+		<main id="main">
+			<section class="calculator-section">
+				<div class="container">
+					<ul class="breadcrumbs">
+						<li><a href="index.html"><i class="icon-home"></i></a></li>
+						<li><strong>Калькулятор самогонщика</strong></li>
+					</ul>
+					<div class="row">
+						<div class="col-md-9">
+							<h1>Калькулятор самогонщика</h1>
+							<div class='product-tabs'>
+								<ul class='tabnav'>
+									<li><a href="#tab-1"><i class="icon-file-text-o"></i>Калькулятор спирта</a></li>
+									<li><a href="#tab-2"><i class="icon-list-alt"></i>Смешивание спиртов</a></li>
+									<li><a href="#tab-3"><i class="icon-list-alt"></i>Чистый спирт и отбор голов</a></li>
+								</ul>
+								<div id='tab-1' class="tab-content">
+									<h2>Калькулятор разбавления спирта водой</h2>
+									<p>
+										Определяет количество воды, которое нужно добавить для получения спирта заданной
+										крепости.
+									</p>
+									<p>
+										Актуальность вопроса, как разбавить спирт, напрямую зависит от количества винокуров, которые занимаются
+										изготовлением крепких алкогольных напитков. Учитывая тот факт, что с каждым годом «армия» ценителей экологически
+										чистой и безопасной ликероводочной продукции становится все больше, не трудно сделать вывод о востребованности
+										калькулятора, позволяющего определить, как развести спирт, чтобы получить напиток нужной крепости.
+										Официальный веб-ресурс компании Смакуй избавит вас от необходимости производить математические расчеты, чтобы узнать,
+										как разбавить спирт до требуемого уровня крепости, интересующего вас напитка. Для решения данной задачи понадобятся
+										следующие данные: объем и крепость готового спирта, а также крепость, которую ему нужно получить. И все, вопрос, как
+										развести спирт, решен!
+										Как это происходит на практике? Представленный калькулятор спирта состоит из двух частей. В первой вы указываете
+										исходные данные, а во второй получаете готовый результат. Например, у вас есть 2 л спирта 90 градусов, ваша задача
+										сделать напиток 40 градусов. Последовательно вносите в «окошка» калькулятора спирта: 2 л, 90 градусов, 40 градусов и
+										нажимаете кнопку «Посчитать». Через секунду получаете результат – 2,61 л.
+									</p>
+									<div class="calculator-box row">
+										<div class="col-md-6">
+											<div class="card">
+												<div class="card-head">
+													<h4>
+														Исходные данные
+													</h4>
+												</div>
+												<div class="card-body">
+													<div class="form-col">
+														<input class="form-control" type="number" placeholder="Объем спирта:" name="volume">
+														<span class="right-box">
+															Литров
+														</span>
+													</div>
+													<div class="form-col">
+														<input class="form-control" type="number" placeholder="Процент спирта до:" name="percent_before">
+														<span class="right-box">
+															%
+														</span>
+													</div>
+													<div class="form-col">
+														<input class="form-control" type="number" placeholder="Процент спирта после:" name="percent_after">
+														<span class="right-box">
+															%
+														</span>
+													</div>
+													<div class="btn-box text-right">
+														<button type="button" class="btn btn-orange">Посчитать</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="card">
+												<div class="card-head">
+													<h4>
+														Результат
+													</h4>
+												</div>
+												<div class="card-body">
+													<div class="img-box">
+														<img src="img/kolba.png" alt="img-description">
+														<p>
+															Введите слева исходные данные
+														</p>
+														<div class="preloader">
+															<img src="img/puff.svg" alt="preloader">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id='tab-2' class="tab-content">
+									<h2>Калькулятор смешивания двух спиртосодержащих жидкостей</h2>
+									<p>
+										Позволяет рассчитать крепость, объем и вес смеси из двух спиртосодержащих жидкостей при
+										указанной температуре. Калькулятор может использоваться и для расчета параметров разбавления
+										самогона водой, для этого достаточно задать крепость воды равной нулю.
+									</p>
+									<p>
+										Опытные винокуры неоднократно сталкивались с ситуацией, когда нужно быстро и точно определить, что получится в
+										результате смешивания двух спиртосодержащих жидкостей. То есть нужно посчитать крепость, объем/вес готового напитка
+										при определенной температуре окружающей среды. Выполнить такие расчеты человеку без опыта (и дополнительных данных)
+										сложно, тем более, если он никогда не занимался решением подобных задач.
+										В качестве исходной информации, которая вносится в соответствующие ячейки в левой части калькулятора, применяются:
+										объем и крепость первой жидкости, аналогичные параметры второй жидкости, а также выбираются единицы измерения для
+										напитка, который получится в результате смешивания спиртов. Например, для объема – литр, для веса – килограммы.
+										В качестве примера возьмем следующие данные: 5 л и 50 градусов (для первого спирта), 2 л и 95 градусов (для второй
+										жидкости), указываем объем в литрах. Нажимаем «Посчитать» и сразу же получаем интересующие параметры. При температуре
+										20 градусов получим 7 л напитка, крепость которого составляет 62,86%.
+									</p>
+									<div class="calculator-box row">
+										<div class="col-md-6">
+											<div class="card">
+												<div class="card-head">
+													<h4>
+														Исходные данные
+													</h4>
+												</div>
+												<div class="card-body">
+													<div class="form-col">
+														<input class="form-control" type="number" placeholder="Количество жидкости N1:"	name="amount_fluid_1">
+														<span class="right-box">
+															Литров
+														</span>
+													</div>
+													<div class="form-col">
+														<input class="form-control" type="number" placeholder="Объемная доля спирта:" name="volume_1">
+														<span class="right-box">
+															%
+														</span>
+													</div>
+													<div class="form-col">
+														<input class="form-control" type="number" placeholder="Количество жидкости N2:" name="amount_fluid_2">
+														<span class="right-box">
+															Литров
+														</span>
+													</div>
+													<div class="form-col">
+														<input class="form-control" type="number" placeholder="Объемная доля спирта:" name="volume_2">
+														<span class="right-box">
+															%
+														</span>
+													</div>
+													<div class="form-col">
+														<select class="form-control" name="units">
+															<option value="" disabled="">Единицы измерения</option>
+															<option value="1">Объем в литрах</option>
+														</select>
+														<span class="right-box">
+															
+														</span>
+													</div>
+													<div class="btn-box text-right">
+														<button type="button" class="btn btn-orange">Посчитать</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="card">
+												<div class="card-head">
+													<h4>
+														Результат
+													</h4>
+												</div>
+												<div class="card-body">
+													<div class="img-box">
+														<img src="img/kolba.png" alt="img-description">
+														<p>
+															Введите слева исходные данные
+														</p>
+														<div class="preloader">
+															<img src="img/puff.svg" alt="preloader">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id='tab-3' class="tab-content">
+									<h2>Калькулятор чистого спирта и отбора голов</h2>
+									<p>
+										Рассчитывает количество спирта в дистилляте первой перегонки и определяет объем «голов» в
+										зависимости от указанного процента. Крепость напитка желательно измерять при температуре 20
+										°C.
+									</p>
+									<p>
+										ачество любого дистиллята, полученного в результате перегонки браги или спирта-сырца, зависит от умения винокура
+										определить, сколько «голов» и «хвостов» необходимо отсечь от основного тела алкогольного напитка. В таких ситуациях
+										необходим калькулятор отбора «голов», позволяющий с точностью до одного грамма определить объем опасной фракции, от
+										которой надо избавиться в начале перегонки.
+										Калькулятор чистого спирта поможет вам узнать объем «голов», «хвостов» и чистого спирта, после перегонки исходного
+										сырца. Также показывает, сколько получится готовой продукции, крепость которой составляет 65-70 градусов. Для
+										получения первичной информации необходимо узнать объем спирта-сырца и его крепость (полученные значения вносятся в
+										соответствующие ячейки, в левой части калькулятора). Например, из 1 л 60% жидкости получится: 0,6 л и 0,062 л, чистый
+										спирт и отбор голов – соответственно.
+									</p>
+									<div class="calculator-box row">
+										<div class="col-md-6">
+											<div class="card">
+												<div class="card-head">
+													<h4>
+														Исходные данные
+													</h4>
+												</div>
+												<div class="card-body">
+													<div class="form-col">
+														<input class="form-control" type="number" placeholder="Объем спирта:" name="volume">
+														<span class="right-box">
+															Литров
+														</span>
+													</div>
+													<div class="form-col">
+														<input class="form-control" type="number" placeholder="Крепость спирта:" name="strength">
+														<span class="right-box">
+															%
+														</span>
+													</div>
+													<div class="btn-box text-right">
+														<button type="button" class="btn btn-orange">Посчитать</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="card">
+												<div class="card-head">
+													<h4>
+														Результат
+													</h4>
+												</div>
+												<div class="card-body">
+													<div class="img-box">
+														<img src="img/kolba.png" alt="img-description">
+														<p>
+															Введите слева исходные данные
+														</p>
+														<div class="preloader">
+															<img src="img/puff.svg" alt="preloader">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="sidebar-right">
+								<ul class="aside-sorting">
+									<li>
+										<h4 class="aside-sorting-head">
+											Подбор аппарата
+										</h4>
+										<ul>
+											<li>
+												<label>
+													Наличие проточной воды
+													<select class="form-control required" name="availability_water">
+														<option value="1">Да</option>
+														<option value="0">Нет</option>
+													</select>
+												</label>
+											</li>
+											<li>
+												<label>
+													Брага(состав)
+													<select class="form-control required" name="composition">
+														<option value="sugar">Сахарная</option>
+														<option value="fruit">Фруктовая</option>
+													</select>
+												</label>
+											</li>
+											<li>
+												<label>
+													Брага(обьем)
+													<select class="form-control required" name="volume" id="fc-volume">
+														<option value="10">до 10 л</option>
+														<option value="20">до 20 л</option>
+														<option value="30">до 30 л</option>
+														<option value="50">от 30 л</option>
+													</select>
+												</label>
+											</li>
+											<li>
+												<label>
+													Какой у вас бюджет?
+													<select class="form-control required" name="money" id="fc-money">
+														<option value="1">до 4500 грн.</option>
+														<option value="2">до 8000 грн.</option>
+														<option value="3">Деньги не главное</option>
+													</select>
+												</label>
+											</li>
+											<li>
+												<button type="button" class="btn btn-general">
+													Поиск
+												</button>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<div class="sorting-result">
+									<div class="head-group">
+										<h3>РЕЗУЛЬТАТ ПОИСКА</h3>
+									</div>
+									<div class="sorting-result-box">
+										<div class="product">
+											<a href="#" class="product-img">
+												<div class="img-box front">
+													<img src="img/ss12.jpg" alt="image description">
+												</div>
+												<div class="img-box back">
+													<img src="img/ss12hover.jpg" alt="image description">
+												</div>
+											</a>
+											<div class="quickview">
+												<a href="#" class="preview-opener">
+													<i class="icon-external-link"></i>
+													Просмотр
+												</a>
+											</div>
+											<div class="stickers">
+												<div class="percent">
+													<i class="icon-tag"></i>
+													<span>-14 %</span>
+												</div>
+												<div class="sale">
+													<span>Акция</span>
+												</div>
+											</div>
+											<div class="product-caption">
+												<div class="product-name">
+													<a href="#">
+														Самогонный аппарат "Старт" - 12 л.
+													</a>
+												</div>
+												<div class="product-model">
+													<p>
+														Самогонный аппарат "Старт" - 10 л.
+													</p>
+												</div>
+												<div class="product-rating">
+													<ul class="rating-box">
+														<li><i class="icon-star"></i></li>
+														<li><i class="icon-star"></i></li>
+														<li><i class="icon-star"></i></li>
+														<li><i class="icon-star"></i></li>
+														<li><i class="icon-star"></i></li>
+														<li class="quantity-reviews">
+															<a href="#">22</a>
+															<span>отзывов</span>
+														</li>
+													</ul>
+												</div>
+												<div class="product-price">
+													<span class="price-old" data-price="4290">4290 <span>грн</span></span>
+													<span class="price-new" data-price="3690">3690 грн</span>
+												</div>
+												<div class="product-quantity">
+													<div class="input-group">
+														<button class="btn-quantity minus" type="button">-</button>
+														<input class="input-quantity" type="text" value="1">
+														<button class="btn-quantity plus" type="button">+</button>
+													</div>
+												</div>
+												<div class="product-btn">
+													<div class="quick-order">
+														<a href="#" class="btn btn-fast-order fast-order-opener">
+															<i class="icon-shopping-bag"></i>
+														</a>
+													</div>
+													<div class="cart">
+														<a href="#" class="btn btn-general addcart-opener">
+															<i class="icon-shopping-basket"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="product">
+											<a href="#" class="product-img">
+												<div class="img-box front">
+													<img src="img/ss12.jpg" alt="image description">
+												</div>
+												<div class="img-box back">
+													<img src="img/ss12hover.jpg" alt="image description">
+												</div>
+											</a>
+											<div class="quickview">
+												<a href="#" class="preview-opener">
+													<i class="icon-external-link"></i>
+													Просмотр
+												</a>
+											</div>
+											<div class="stickers">
+												<div class="percent">
+													<i class="icon-tag"></i>
+													<span>-14 %</span>
+												</div>
+												<div class="sale">
+													<span>Акция</span>
+												</div>
+											</div>
+											<div class="product-caption">
+												<div class="product-name">
+													<a href="#">
+														Самогонный аппарат "Старт" - 12 л.
+													</a>
+												</div>
+												<div class="product-model">
+													<p>
+														Самогонный аппарат "Старт" - 10 л.
+													</p>
+												</div>
+												<div class="product-rating">
+													<ul class="rating-box">
+														<li><i class="icon-star"></i></li>
+														<li><i class="icon-star"></i></li>
+														<li><i class="icon-star"></i></li>
+														<li><i class="icon-star"></i></li>
+														<li><i class="icon-star"></i></li>
+														<li class="quantity-reviews">
+															<a href="#">22</a>
+															<span>отзывов</span>
+														</li>
+													</ul>
+												</div>
+												<div class="product-price">
+													<span class="price-old" data-price="4290">4290 <span>грн</span></span>
+													<span class="price-new" data-price="3690">3690 грн</span>
+												</div>
+												<div class="product-quantity">
+													<div class="input-group">
+														<button class="btn-quantity minus" type="button">-</button>
+														<input class="input-quantity" type="text" value="1">
+														<button class="btn-quantity plus" type="button">+</button>
+													</div>
+												</div>
+												<div class="product-btn">
+													<div class="quick-order">
+														<a href="#" class="btn btn-fast-order fast-order-opener">
+															<i class="icon-shopping-bag"></i>
+														</a>
+													</div>
+													<div class="cart">
+														<a href="#" class="btn btn-general addcart-opener">
+															<i class="icon-shopping-basket"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+//= template/footer.html

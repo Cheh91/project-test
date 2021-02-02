@@ -1,0 +1,28 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "../../../node_modules/bootstrap/scss/utilities/_sizing.scss";
+@import "../../../node_modules/bootstrap/scss/utilities/_position.scss";
+@import "../../../node_modules/slick-carousel/slick/slick.scss";
+
+@import "utils/variables";
+@import "utils/normalize";
+@import "fonts";
+// @import "libs/fancybox";
+// @import "libs/flipclock";
+// @import "libs/scrollBar";
+
+// @import "common/common";
+
+@import "common/layout";
+
+@import "common/header";
+
+@import "common/forms";
+@import "common/home-page";
+// @import "common/catalog-page";
+// @import "common/product-page";
+// @import "common/contact-page";
+// @import "common/profile-page";
+// @import "common/compare-page";
+// @import "common/other-pages";
+
+@import "common/footer";

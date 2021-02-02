@@ -1,0 +1,204 @@
+.footer {
+  border-top: 3px solid $orange;
+  font-size: 13px;
+  margin-top: 30px;
+  color: #ccc;
+  background-color: #141414;
+  padding-top: 30px;
+  padding-bottom: 25px;
+
+  &-ribbon {
+    background-color: #FD6500;
+    margin: -49px 0 25px;
+    padding: 10px 20px 6px;
+    position: absolute;
+
+    &:before {
+      border-right: 10px solid #AF3907;
+      border-top: 18px solid transparent;
+      content: "";
+      display: block;
+      height: 0;
+      left: -10px;
+      position: absolute;
+      top: 0;
+      width: 7px;
+      z-index: -1;
+    }
+
+    span {
+      color: #fff;
+      font-family: "Marck Script";
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+
+  .subscription {
+    padding-bottom: 30px;
+    text-align: center;
+
+    @media (min-width: 992px) {
+      text-align: unset;
+    }
+
+    h4,.h4 {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-top: 13px;
+      text-transform: uppercase;
+      vertical-align: top;
+      
+      @media (min-width: 992px) {
+        text-align: right;
+      }
+    }
+
+    .form-control {
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      color: #666;
+      display: inline-block;
+      height: 43px;
+      line-height: 1;
+      padding: 8px 15px;
+      width: 100%;
+      font-size: 13px;
+      background-color: $white;
+    }
+
+    .error-msg {
+      padding-top: 10px;
+      text-align: center;
+      font-weight: 700;
+      color: $red;
+    }
+    .btn {
+      height: 43px;
+      min-width: 145px;
+    }
+  }
+
+  .banner {
+    .col-lg-3 {
+      display: flex;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-color: #fff;
+      border-radius: 3px;
+      border-style: solid;
+      border-width: 1px 1px 2px;
+      overflow: hidden;
+      padding: 10px 10px 5px;
+      position: relative;
+      margin-bottom: 15px;
+      color: #ccc;
+      width: 100%;
+      
+      .text-holder {
+        text-align: center;
+        width: calc(100% - 35px);
+        
+        a {
+          color: #ccc;
+        }
+        
+        h5,.h5 {
+          margin-bottom: 5px;
+          font-size: 15px;
+          font-weight: 400;
+          font-family: 'Open Sans',sans-serif;
+          color: $white;
+        }
+
+        li {
+          margin-bottom: 4px;
+        }
+      }
+
+      .icon-box {
+        font-size: 40px;
+        width: 35px;
+      }
+
+      &:hover {
+        background: #999;
+        border-color: #666;
+      }
+    }
+  }
+
+  .contacts {
+    h3,.h3 {
+      font-family: 'Open Sans',sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: $orange;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    .contact-menu {
+      margin-bottom: 15px;
+
+      li {
+        margin-bottom: 4px;
+
+        a {
+          color: #ccc;
+
+          &:hover {
+            color: $white;
+          }
+        }
+
+        i {
+          width: 20px;
+          display: inline-block;
+        }
+      }
+    }
+
+    p {
+      margin-bottom: 5px;
+    }
+  }
+
+  .map-box {
+    height: 100%;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  }
+
+  .footer-menu {
+    // padding-top: 20px;
+
+    li {
+      margin-bottom: 4px;
+
+      &:last-child {
+        a {
+          line-height: 19px;
+        }
+      }
+
+      a {
+        color: #ccc;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}

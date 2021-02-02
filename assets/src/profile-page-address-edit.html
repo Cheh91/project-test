@@ -1,0 +1,185 @@
+ //= template/head.html
+		<main id="main">
+			<section class="profile-section">
+				<div class="container">
+					<ul class="breadcrumbs">
+						<li><a href="index.html"><i class="icon-home"></i></a></li>
+						<li><a href="#">Личный кабинет</a></li>
+						<li><a href="#">Мои адреса</a></li>
+						<li><strong>Редактировать адрес</strong></li>
+					</ul>
+					<div class="row">
+						<div class="col-md-9">
+							<h2>Редактировать адрес</h2>
+							<div class="form-box">
+								<form action="#" class="form-horizontal">
+									<fieldset>
+										<div class="form-group required">
+											<label class="col-sm-2 control-label" for="input-firstname">Имя, Отчество </label>
+											<div class="col-sm-10">
+												<input type="text" name="firstname" placeholder="Имя, Отчество" id="input-firstname" class="form-control">
+											</div>
+										</div>
+										<div class="form-group required">
+											<label class="col-sm-2 control-label" for="input-lastname">Фамилия</label>
+											<div class="col-sm-10">
+												<input type="text" name="lastname" placeholder="Фамилия" id="input-lastname" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-2 control-label" for="input-company">Компания</label>
+											<div class="col-sm-10">
+												<input type="text" name="company" value="" placeholder="Компания" id="input-company" class="form-control">
+											</div>
+										</div>
+										<div class="form-group required">
+											<label class="col-sm-2 control-label" for="input-address-1">Адрес 1</label>
+											<div class="col-sm-10">
+												<input type="text" name="address_1" value="" placeholder="Адрес 1" id="input-address-1" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-2 control-label" for="input-address-1">Адрес 2</label>
+											<div class="col-sm-10">
+												<input type="text" name="address_2" value="" placeholder="Адрес 2" id="input-address-2" class="form-control">
+											</div>
+										</div>
+										<div class="form-group required">
+											<label class="col-sm-2 control-label" for="input-city">Город</label>
+											<div class="col-sm-10">
+												<input type="text" name="city" value="" placeholder="Город" id="input-city" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-2 control-label" for="input-postcode">Почтовый индекс</label>
+											<div class="col-sm-10">
+												<input type="text" name="postcode" value="" placeholder="Почтовый индекс" id="input-postcode" class="form-control">
+											</div>
+										</div>
+										<div class="form-group required">
+											<label class="col-sm-2 control-label" for="input-country">Страна</label>
+											<div class="col-sm-10">
+												<select name="country_id" id="input-country" class="form-control">
+													<option> --- Выберите --- </option>
+													<option>Белоруссия (Беларусь)</option>
+													<option>Грузия</option>
+													<option>Казахстан</option>
+													<option>Киргизия (Кыргызстан)</option>
+													<option>Узбекистан</option>
+													<option>Украина</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group required">
+											<label class="col-sm-2 control-label" for="input-zone">Регион / Область</label>
+											<div class="col-sm-10">
+												<select name="zone_id" id="input-zone" class="form-control">
+													<option> --- Выберите --- </option>
+													<option>Харьков</option>
+													<option>Днепропетровск</option>
+													<option>Киев</option>
+													<option>Одесса</option>
+													<option>Львов</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-2 control-label">Основной адрес</label>
+											<div class="col-sm-10">
+												<label class="radio-inline">
+													<input type="radio" name="default" value="1" checked="checked">
+													Да
+												</label>
+												<label class="radio-inline">
+													<input type="radio" name="default" value="0">
+													Нет
+												</label>
+											</div>
+										</div>
+									</fieldset>
+									<div class="btn-holder">
+										<div class="btn-box">
+											<a href="#" class="btn btn-gray">Назад</a>
+										</div>
+										<div class="btn-box">
+											<input class="btn btn-primary" type="submit" value="Продолжить">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<ul class="profile-menu">
+								<li>
+									<a href="#">
+										<i class="icon-user"></i>
+										Моя информация
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-pencil"></i>
+										Изменить контактную информацию
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-key"></i>
+										Пароль
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-home"></i>
+										Адресная книга
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-heart-o"></i>
+										Закладки
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-file-o"></i>
+										История заказов
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-diamond"></i>
+										Бонусные баллы
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-exchange"></i>
+										Возвраты
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-credit-card"></i>
+										История транзакций
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-envelope-o"></i>
+										E-Mail рассылка
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon-sign-out"></i>
+										Выход
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+//= template/footer.html
